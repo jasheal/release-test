@@ -20,16 +20,6 @@
     "access": "public"
   },
   "release": {
-    "branches": [
-      "master",
-      {
-        "branch": "beta",
-        "prerelease": true
-      },
-      {
-        "branch": "alpha",
-        "prerelease": true
-      }
-    ]
+    "branch": "next"
   }
 }
