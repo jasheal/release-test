@@ -14,9 +14,22 @@
     "url": "https://github.com/jasonhealy/release-test"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.12"
+    "semantic-release": "^16.0.0-beta.22"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "release": {
+    "branches": [
+      "master",
+      {
+        "branch": "beta",
+        "prerelease": true
+      },
+      {
+        "branch": "alpha",
+        "prerelease": true
+      }
+    ]
   }
 }
