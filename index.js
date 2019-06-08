@@ -9,3 +9,7 @@ export function mileStoneOnc(message) {
 export function mileStoneTwo(message) {
   return `You said ${message}!`
 }
+
+export function betaFeature(message) {
+  return `You said ${message}!`
+}
