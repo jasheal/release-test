@@ -17,6 +17,6 @@
     "semantic-release": "^15.13.12"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   }
 }
