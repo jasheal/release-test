@@ -1,5 +1,5 @@
 {
-  "name": "release-test",
+  "name": "@apptami/release-test",
   "version": "0.0.0-development",
   "description": "Testing automated releases with semantically-released package",
   "main": "index.js",
@@ -7,9 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "semantic-release": "semantic-release"
   },
-  "author": "",
+  "author": "Jason Healy",
   "license": "ISC",
   "repository": {
+    "type": "git",
     "url": "https://github.com/jasonhealy/release-test"
   },
   "devDependencies": {
